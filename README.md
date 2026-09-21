@@ -111,3 +111,6 @@ SkillPulse is hardened to comply with the statutory provisions of the **Digital 
 
 ### 5. AI De-Identification Filter
 - Machine learning models and FastAPI endpoints (`api/ai.php`) run through an automated PII stripping layer (`deidentify_payload_for_ai`) that redacts emails, phone numbers, and names into anonymous surrogate tokens before model inference.
+
+---
+*Last updated: 2026-09-21*
